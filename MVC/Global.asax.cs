@@ -10,14 +10,25 @@ namespace MVC
 {
     public class MvcApplication : System.Web.HttpApplication
     {
-      
+     
         protected void Application_Start()
         {
             
- 
-            AreaRegistration.RegisterAllAreas();
+            
+
+           AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
            // System.Web.Mvc.FilterProviders.Providers.Add()
+           
+        }
+        public override void Init()
+        {
+            base.Init();
+            MapRequestHandler += eventa;
+        }
+        void eventa(object a, EventArgs e)
+        {
+            Trace.WriteLine("");
         }
         //
         // Summary:
