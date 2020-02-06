@@ -10,7 +10,7 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            DesignPattern.Behavioral.ChainOfResponsibilty.Main.Client.Run();
+            DesignPattern.Behavioral.Midiator.MyMidtiator.client.Run();
         }
     }
 }

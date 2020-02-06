@@ -47,6 +47,10 @@
     <Compile Include="Behavioral\ChainOfResponsibilty\WebExample.cs" />
     <Compile Include="Behavioral\ChainOfResponsibilty\MyChain.cs" />
     <Compile Include="Behavioral\Command\Command.cs" />
+    <Compile Include="Behavioral\Memento\Example.cs" />
+    <Compile Include="Behavioral\Memento\MyExample\Memento.cs" />
+    <Compile Include="Behavioral\Midiator\Example\Example.cs" />
+    <Compile Include="Behavioral\Midiator\MyMidtiator\IMidator.cs" />
     <Compile Include="Creational\AbstractedFactory\client.cs" />
     <Compile Include="Creational\AbstractedFactory\Factory.cs" />
     <Compile Include="Creational\AbstractedFactory\IFactory.cs" />
@@ -86,8 +90,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\Iterator\" />
-    <Folder Include="Behavioral\Mediator\" />
-    <Folder Include="Behavioral\Memento\" />
     <Folder Include="Behavioral\Observer\" />
     <Folder Include="Behavioral\State\" />
     <Folder Include="Behavioral\Strategy\" />
